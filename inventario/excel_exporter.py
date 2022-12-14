@@ -20,8 +20,8 @@ class ExcelExporter:
         hoja_excel.title = "Productos"
         
 
-        fuente_cabeceras = Font(name="Calibri", size=10, color="FF0000", bold=True)
-        fuente_cabeceras = Font(name="Arial", size=12, color="#C0C0C0", bold=True) #Cambio de color en fuente_cabeceras por dannyolr
+        fuente_cabeceras = Font(name="Calibri", size=12, color="FF0000", bold=True)
+      
 
         
         hoja_excel["A1"] = "Código"
