@@ -19,7 +19,7 @@ class ExcelExporter:
         hoja_excel = self.workbook.active
         hoja_excel.title = "Productos"
         
-        fuente_cabeceras = Font(name="Calibri", size=12, color="FF0000", bold=True)
+        fuente_cabeceras = Font(name="Calibri", size=11, color="FF0000", bold=True)
         
         hoja_excel["A1"] = "Código"
         hoja_excel["A1"].font = fuente_cabeceras
